@@ -23,8 +23,8 @@
     backdrop-filter: saturate(180%) blur(20px);
 }
 
-.site-header a {
-    color: #727272;
+.site-header a, .site-header img , .site-header p{
+    color: #a1a0a0;
     transition: color .15s ease-in-out;
 }
 
