@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <link href="images/saturn-favicon.png" type="image/x-icon" rel="icon">
+    <link href="../images/saturn-favicon.png" type="image/x-icon" rel="icon">
     <title>Contact</title>
 
-    <link href="style.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
@@ -28,31 +28,25 @@
             <img class="py-3" width="30" height="60" src="https://img.icons8.com/color/48/saturn-planet.png"
                 alt="saturn-planet" />
             <button type="button" class="py-3 btn">
-                <a href="about.html">About Me</a>
+                <a href="../about.html">About Me</a>
             </button>
             <button type="button" class="py-3 btn">
-                <a href="projects.html">Projects</a>
+                <a href="../projects.html">Projects</a>
             </button>
-            <button type="button" class="py-3 btn" disabled>
-                <a href="contact.html">Contact</a>
+            <button type="button" class="py-3 btn">
+                <a href="../contact.html">Contact</a>
             </button>
         </div>
     </nav>
 
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
         <div class="col-md-7 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 fw-normal">Contact Me</h1>
-            <form name="contact_form" method="POST" action="/contact/success.html" netlify>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" minlength="2" maxlength="40" size="23" autofocus required><br><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" size="23" pattern="^[\w\-\.]+@([\w\-]+\.)+[\w\-]{2,4}$"
-                    title="Your email" autocomplete="email" required><br><br>
-                <label for="subject">Message:</label><br>
-                <textarea id="messageForm" name="message" rows="4" cols="35" required></textarea><br><br>
-                <div data-netlify-recaptcha="true" class="position-relative overflow-hidden p-3"></div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <img width="400" height="400" src="https://img.icons8.com/clouds/500/checked-2.png" alt="checked-2" />
+            <h1 class="display-4 fw-normal">Message Sent!</h1>
+            <br>
+            <button type="button" class="btn btn-primary" id="success-button">
+                <a href="../index.html">Return Home</a>
+            </button>
         </div>
     </div>
 
